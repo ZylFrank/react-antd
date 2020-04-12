@@ -57,9 +57,7 @@ const BasicLayout = (props) => {
           {collapsed ? (
             <h3 style={{ textAlign: 'center', color: 'white' }}>模版项目</h3>
           ) : (
-            <h2 style={{ textAlign: 'center', color: 'white' }}>
-              模版项目
-            </h2>
+            <h2 style={{ textAlign: 'center', color: 'white' }}>模版项目</h2>
           )}
         </div>
         <Menu

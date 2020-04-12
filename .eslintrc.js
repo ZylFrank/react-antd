@@ -1,0 +1,48 @@
+module.exports = {
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-console": "error",
+    'react/jsx-wrap-multilines': 0,
+    'react/prop-types': 0,
+    'react/forbid-prop-types': 0,
+    'react/sort-comp': 1,
+    'react/jsx-one-expression-per-line': 0,
+    'generator-star-spacing': 0,
+    'function-paren-newline': 0,
+    'import/order': 'warn',
+    'react/jsx-props-no-spreading': 0,
+    'react/state-in-constructor': 0,
+    'react/static-property-placement': 0,
+    'jsx-a11y/no-noninteractive-element-interactions': 0,
+    'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
+    'jsx-a11y/anchor-is-valid': 0,
+    'linebreak-style': 0,
+    'no-prototype-builtins': 'off',
+    'import/prefer-default-export': 'off',
+    'import/no-default-export': [0, 'camel-case'],
+    'react/destructuring-assignment': 'off',
+    'react/jsx-filename-extension': 'off',
+    'no-use-before-define': ['error', { functions: false, classes: true, variables: true }],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'off',
+    'arrow-body-style': ['error', 'as-needed'],
+    'arrow-parens': 1,
+    'object-curly-newline': 0,
+    'implicit-arrow-linebreak': 0,
+    'operator-linebreak': 0,
+    'no-param-reassign': 1,
+    'space-before-function-paren': 0,
+    'import/extensions': 0,
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'consistent-return': 0,
+  }
+}

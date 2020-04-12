@@ -81,7 +81,3 @@ export default {
   baseUrl: process.env.BASE_URL || "https://default.fox.mn"
 };
 ```
-
-
-# 配置eslint
-# 配置prettier

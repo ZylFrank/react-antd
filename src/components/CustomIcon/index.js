@@ -1,5 +1,10 @@
 import React from 'react';
-import { ApiOutlined, AreaChartOutlined, PieChartOutlined, BorderRightOutlined } from '@ant-design/icons';
+import {
+  ApiOutlined,
+  AreaChartOutlined,
+  PieChartOutlined,
+  BorderRightOutlined,
+} from '@ant-design/icons';
 
 const CustomIcon = ({ type }) => {
   switch (type) {
@@ -10,7 +15,7 @@ const CustomIcon = ({ type }) => {
       return <PieChartOutlined />;
     }
     case 'BorderRightOutlined': {
-      return <BorderRightOutlined />
+      return <BorderRightOutlined />;
     }
     default:
       return <AreaChartOutlined />;

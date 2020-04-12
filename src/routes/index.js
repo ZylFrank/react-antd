@@ -7,7 +7,7 @@ import { commonRoutes } from './menus';
 const AppRouter = () => (
   <Router>
     <Switch>
-      <Route path="/web"  exact render={(routeProps) => <App {...routeProps} />}/>
+      <Route path="/web" exact render={(routeProps) => <App {...routeProps} />} />
       {commonRoutes.map((route) => (
         <Route key={route.path} {...route} />
       ))}
@@ -15,7 +15,6 @@ const AppRouter = () => (
       <Redirect to="/404" />
     </Switch>
   </Router>
-)
-
+);
 
 export default AppRouter;

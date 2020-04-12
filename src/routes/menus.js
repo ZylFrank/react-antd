@@ -1,4 +1,3 @@
-
 import PageNotFound from '../pages/PageNotFound';
 import IndexPage from '../pages/web/index';
 
@@ -19,6 +18,6 @@ export const BasicRoutes = [
     hideInMenu: false,
     title: '接口',
     icon: 'ApiOutlined',
-    component: IndexPage
+    component: IndexPage,
   },
 ];
