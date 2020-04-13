@@ -81,3 +81,5 @@ export default {
   baseUrl: process.env.BASE_URL || "https://default.fox.mn"
 };
 ```
+
+[Eslint&Prettier&husky](https://thomlom.dev/setup-eslint-prettier-react/)
